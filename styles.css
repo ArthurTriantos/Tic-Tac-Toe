@@ -3,17 +3,18 @@
     text-align: center;
 }
 
-.row > .top, .bottom, .middle {
+.row > div {
     float: left;
     height: 100px;
     width: 100px;
 }
 
-.row {
-    clear: both;
+.row > div:hover {
+    cursor: pointer;
 }
 
 .row {
+    clear: both;
     margin: 0 auto;
     width: 302px;
 }
